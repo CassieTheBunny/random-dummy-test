@@ -33,7 +33,7 @@ class TestDisplay extends Component {
       {
         testData.map((test) => {
           i++;
-          return <p key={i}>{test.description}  - <b>{test.status}</b></p>;
+          return <p key={i}>{test.description}  - <strong>{test.status}</strong></p>;
         })
       }
     </div>

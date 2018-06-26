@@ -4,9 +4,9 @@ const TestCounter = (props) => {
   return (
     <div className="test-counter">
       <hr/>
-      <p>Running: <b>{props.running}</b></p>
-      <p>Passed: <b>{props.passed}</b></p>
-      <p>Failed: <b>{props.failed}</b></p>
+      <p>Running: <strong>{props.running}</strong></p>
+      <p>Passed: <strong>{props.passed}</strong></p>
+      <p>Failed: <strong>{props.failed}</strong></p>
       <hr/>
       {props.isFinished &&
         <p>* * * FINISHED!! * * *</p>
